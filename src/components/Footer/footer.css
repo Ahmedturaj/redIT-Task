@@ -1,0 +1,5 @@
+.footerBG {
+  background: linear-gradient(to right, #360202, #892929, #000000);
+  background-size: 200%;
+  background-position: 0% 50%;
+}

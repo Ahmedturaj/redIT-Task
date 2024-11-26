@@ -1,0 +1,28 @@
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bn-gradient {
+  background: linear-gradient(to right, #991b1b, #ef4444, #bb2727);
+  background-size: 200%;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  transition: background-position 0.3s ease-in-out;
+}
+.bn-gradient:hover {
+  animation: gradientMove 2s infinite;
+}
