@@ -51,7 +51,7 @@ This landing page is optimized for multiple screen sizes:
 
 ## Accessibility
 
-- Used semantic HTML5 elements (e.g., <header>, <main>, <footer>).
+- Used semantic HTML5 elements (e.g., `header`, `main`, `footer`).
 - Included alt attributes for all images.
 - Ensured proper contrast ratios for text and background colors.
 - Added focus states for better keyboard navigation.
